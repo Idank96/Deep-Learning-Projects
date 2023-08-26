@@ -9,6 +9,13 @@ https://poloclub.github.io/cnn-explainer/#article-convolution
 ### Hardware for DL
 https://github.com/MaelAbgrall/HardwareforAI
 
+# Transformers
+
+http://jalammar.github.io/illustrated-transformer/
+
+https://github.com/jessevig/bertviz
+
+
 ### Courses to take:
 https://www.coursera.org/specializations/deep-learning
 
