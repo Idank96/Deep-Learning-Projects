@@ -11,6 +11,7 @@ https://github.com/MaelAbgrall/HardwareforAI
 
 ### Courses to take:
 https://www.coursera.org/specializations/deep-learning
+
 https://course.fast.ai/
 
 fast.ai Part 1 on youtube: https://www.youtube.com/watch?v=8SF_h3xF3cE&list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&index=1
