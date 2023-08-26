@@ -8,3 +8,7 @@ https://poloclub.github.io/cnn-explainer/#article-convolution
 
 ### Hardware for DL
 https://github.com/MaelAbgrall/HardwareforAI
+
+### Courses to take:
+https://www.coursera.org/specializations/deep-learning
+https://course.fast.ai/
