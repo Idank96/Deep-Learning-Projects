@@ -4,7 +4,7 @@ import math
 
 class PositionalEncoding(nn.Module):
     """
-    Positional encoding is a technique used in deep learning models.
+    Positional encoding is a technique used in deep learning models, specifically in transformers architecture. 
     Positional encoding is added to the input embeddings before feeding them to the transformer.
     It allows the model to capture the order and relative position of the tokens in a sequence, 
     which is important for understanding the meaning and context of the data.
