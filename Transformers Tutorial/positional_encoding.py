@@ -1,3 +1,20 @@
+"""
+Terms used in this file
+=======================
+`dropout`:
+            Dropout is a regularization technique used in neural networks.
+            It is applied to prevent overfitting. 
+            During training, dropout randomly "drops out" a fraction of neurons in the neural network for each training example.
+            This means that these neurons won't contribute to the forward and backward passes, making the network more robust.
+            This randomness encourages the network to learn more robust and generalized features.
+            During inference, dropout is usually turned off, and all neurons are active.
+`inference`:
+            After a neural network has been trained on a dataset to learn patterns and relationships, it can "infer" new data.
+            Inference is when input data is fed into the trained model, and the model processes this data to produce an output or prediction.
+`unsqueeze`:
+            A method that is used to change the shape or dimensions of a tensor.
+"""
+
 import torch
 from torch import nn, Tensor
 import math
