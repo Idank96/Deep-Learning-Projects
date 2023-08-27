@@ -91,11 +91,12 @@ class TransformerModel(nn.Module):
         # maps each token to a vector of dimension. 
         # use 'sqrt' to adjust the magnitude of the embeddings to match
         # the expected scale of the transformer encoder.
-        # multiply each element of the embedded tensor by a constant scalar
+        # in short: multiply each element of the embedded tensor by a constant scalar
         src = self.embedding(src) * math.sqrt(self.d_model)
         # add positional information to the embeddings, since the
         # transformer encoder does not have any recurrence or convolution
-        # mechanism that can capture the order of the tokens.
+        # mechanism that can capture the order of the tokens. 
+        # this is unique to transformers 
         src = self.pos_encoder(src)
         # encode the input sequences using a stack of transformer encoder layers
         # that apply self-attention and feedforward networks.
